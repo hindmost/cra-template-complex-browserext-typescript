@@ -1,0 +1,31 @@
+{
+  "name": "cra-template-complex-browserext-typescript",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "extension",
+    "browser-extension",
+    "chrome-extension",
+    "firefox-extension"
+  ],
+  "description": "A Create React App/TypeScript template for bootstrapping complex Chrome/Firefox/(any Chromium-based browser) extensions",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hindmost/cra-template-complex-browserext-typescript"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "bugs": {
+    "url": "https://github.com/hindmost/cra-template-complex-browserext-typescript/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
