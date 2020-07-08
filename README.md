@@ -4,6 +4,8 @@ A TypeScript template for bootstrapping complex Chrome/Firefox/(any Chromium-bas
 
 [Article](https://medium.com/swlh/bootstrapping-complex-chrome-firefox-edge-extensions-with-create-react-app-667be8df35d7)
 
+[Regular version of this template](https://github.com/hindmost/cra-template-complex-browserext)
+
 ## Usage
 
 ```sh

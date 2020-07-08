@@ -11,6 +11,16 @@
     "scripts": {
       "build": "react-app-rewired build",
       "test": "react-app-rewired test"
+    },
+    "eslintConfig": {
+      "extends": "react-app",
+      "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "webextensions": true
+      }
     }
   }
 }
