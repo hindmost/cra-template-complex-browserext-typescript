@@ -69,7 +69,8 @@ function override(config, env) {
   config.plugins.push(optionsHtmlPlugin);
 
   // Custom ManifestPlugin instance to cast asset-manifest.json back to old plain format
-  const manifestPlugin = new ManifestPlugin({
+  const manifestPlugin = new (ManifestPlugin.WebpackManifestPlugin ||
+    ManifestPlugin)({
     fileName: 'asset-manifest.json',
   });
   // Replace original ManifestPlugin instance in config.plugins with the above one
